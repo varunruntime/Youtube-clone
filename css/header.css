@@ -3,6 +3,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(222, 222, 222);
+  z-index: 100;
 }
 
 .hamburger-menu{
@@ -100,6 +109,30 @@
 .notification-icon{
   height: 24px;
 }
+
+.notification-icon-container{
+  position: relative;
+}
+
+.notification-count{
+  position: absolute;
+  background-color: rgb(209, 2, 2);
+  color: white;
+  top: -5px;
+  right: -9px;
+  font-family: Roboto,arial;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+
 
 .my-channel-profile{
   height:32px;
