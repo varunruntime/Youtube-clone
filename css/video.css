@@ -3,21 +3,21 @@
       }
 
       .video-title{
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 500;
         line-height: 20px;
       }
 
       .video-author{
         margin-top: 10px;
-        font-size: 12px;
+        font-size: 13px;
         color: rgb(96, 96, 96);
       }
 
       .video-stats{
         margin-top: 4px;
         margin-bottom: 12px;
-        font-size: 12px;
+        font-size: 13px;
         color: rgb(96, 96, 96);
       }
 
@@ -43,7 +43,7 @@
         bottom: 10px;
         right: 8px;
         font-family: roboto,Arial, Helvetica, sans-serif;
-        font-size: 12px;
+        font-size: 14px;
         padding: 4px;
         border-radius: 2px;
       }
